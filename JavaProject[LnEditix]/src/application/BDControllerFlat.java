@@ -934,7 +934,7 @@ public class BDControllerFlat {
 		});
 
 		butSQL2.setOnAction((event) -> {
-			String nexText = "SELECT champs1 , champs2 FROM Nomtable WHERE 1";
+			String nexText = "SELECT *FROM Nomtable";
 			SQLText.setText(nexText);
 		});
 
@@ -1333,6 +1333,12 @@ public class BDControllerFlat {
 				Toast.makeText(primarystage, toastMsg, "#70c1b3");
 			}
 
+			if (requete.startsWith("SELECT")) {
+				String latable = requete.substring(13);
+				tabs.getSelectionModel().select(2);
+				parcourirTabs.getSelectionModel().select(1);
+				listParcourTable.getSelectionModel().select(latable);
+			}
 			butCreation.setDisable(true);
 			tabCreationBD.setDisable(true);
 			butCreation1.setDisable(true);

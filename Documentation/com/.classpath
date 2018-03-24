@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="appl/editeur/apache-commons.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/checker.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/commons-lang.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/commons-logging.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/hppc.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/jsoup-1.11.2.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/languagetool-core.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/morfologik-fsa.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/morfologik-polish.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/morfologik-speller.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/morfologik-stemming.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/morfologik-tools.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/opennlp-chunk-models.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/opennlp-maxent.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/opennlp-postag-models.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/opennlp-tokenize-models.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/opennlp-tools.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/openregex.jar"/>
+	<classpathentry kind="lib" path="appl/editeur/segment.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
